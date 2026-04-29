@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: board-binding
+  namespace: team-board
+subjects:
+- kind: ServiceAccount
+  name: board-sa
+  namespace: team-board
+roleRef:
+  kind: Role
+  name: board-reader
+  apiGroup: rbac.authorization.k8s.io

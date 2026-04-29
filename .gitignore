@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.local
+*.secret
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Helm
+charts/**/Chart.lock
+
+# Kubernetes
+kubeconfig
+kubeconfig.*
+
+# Logs
+*.log
