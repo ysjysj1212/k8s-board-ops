@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/my-org/ops-repo
+    repoURL: https://github.com/ysjysj1212/k8s-board-ops
     targetRevision: main
     path: charts/team-board
   destination:
